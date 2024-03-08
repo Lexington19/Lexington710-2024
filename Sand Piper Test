@@ -1,5 +1,8 @@
 2024 Create 3 Testing Sand Piper Code    
+    //Servo 1=arm
+    //Servo 2=claw
 
+   
     create3_connect();
     enable_servos();
 
@@ -14,7 +17,7 @@
 
 
     set_servo_position(2,100);
-    msleep(500);
+    msleep(1000);
 
     disable_servos();
     create3_wait();
