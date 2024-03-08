@@ -1,0 +1,21 @@
+2024 Create 3 Testing Sand Piper Code    
+
+    create3_connect();
+    enable_servos();
+
+    create3_drive_straight(.26,1);
+
+    create3_drive_arc_degrees(.20,30,1);
+    
+    create3_wait();
+
+    set_servo_position(2,1024);
+    msleep(1000);
+
+
+    set_servo_position(2,100);
+    msleep(500);
+
+    disable_servos();
+    create3_wait();
+
